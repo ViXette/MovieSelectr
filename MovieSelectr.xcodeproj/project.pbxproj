@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		F74FC47F1DEA711D00B802E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74FC47E1DEA711D00B802E8 /* AppDelegate.swift */; };
-		F74FC4811DEA711D00B802E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74FC4801DEA711D00B802E8 /* ViewController.swift */; };
 		F74FC4841DEA711D00B802E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74FC4821DEA711D00B802E8 /* Main.storyboard */; };
 		F74FC4871DEA711D00B802E8 /* MovieSelectr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F74FC4851DEA711D00B802E8 /* MovieSelectr.xcdatamodeld */; };
 		F74FC4891DEA711D00B802E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74FC4881DEA711D00B802E8 /* Assets.xcassets */; };
 		F74FC48C1DEA711D00B802E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74FC48A1DEA711D00B802E8 /* LaunchScreen.storyboard */; };
+		F74FC4941DEA75F900B802E8 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74FC4931DEA75F900B802E8 /* MovieTableViewController.swift */; };
+		F74FC4961DEA76A400B802E8 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74FC4951DEA76A400B802E8 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F74FC47B1DEA711D00B802E8 /* MovieSelectr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieSelectr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74FC47E1DEA711D00B802E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F74FC4801DEA711D00B802E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F74FC4831DEA711D00B802E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F74FC4861DEA711D00B802E8 /* MovieSelectr.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MovieSelectr.xcdatamodel; sourceTree = "<group>"; };
 		F74FC4881DEA711D00B802E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F74FC48B1DEA711D00B802E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F74FC48D1DEA711D00B802E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F74FC4931DEA75F900B802E8 /* MovieTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
+		F74FC4951DEA76A400B802E8 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				F74FC47E1DEA711D00B802E8 /* AppDelegate.swift */,
-				F74FC4801DEA711D00B802E8 /* ViewController.swift */,
+				F74FC4931DEA75F900B802E8 /* MovieTableViewController.swift */,
+				F74FC4951DEA76A400B802E8 /* Movie.swift */,
 				F74FC4821DEA711D00B802E8 /* Main.storyboard */,
 				F74FC4881DEA711D00B802E8 /* Assets.xcassets */,
 				F74FC48A1DEA711D00B802E8 /* LaunchScreen.storyboard */,
@@ -140,9 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F74FC4811DEA711D00B802E8 /* ViewController.swift in Sources */,
 				F74FC4871DEA711D00B802E8 /* MovieSelectr.xcdatamodeld in Sources */,
 				F74FC47F1DEA711D00B802E8 /* AppDelegate.swift in Sources */,
+				F74FC4961DEA76A400B802E8 /* Movie.swift in Sources */,
+				F74FC4941DEA75F900B802E8 /* MovieTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
